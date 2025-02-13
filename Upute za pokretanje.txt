@@ -1,0 +1,14 @@
+Upute za pokretanje:
+Otvore se tri Python skripte u Visual Studio Code-u:
+client.py - Glavna datoteka s implementacijom korisničkog sučelja.
+server.py - Služi za komunikaciju između klijenta i baze, šalje i prima podatke
+storage.py - Implementacija ZODB baze podataka, upravljanje rezultata igraca
+
+U jednom Terminalu se upiše python server.py, a u drugom python client.py
+Na ovaj način pokreću se server.py i client.py skripte te se uspostavlja komunikacija između njih pomoću localhosta.
+
+Nakon što je igra pokrenuta otvara se zaslon s poljem za unos korisničkog imena. 
+Nakon što je uneseno korisničko ime pritisne se Enter i igra Snake se automatski pokreće, a korisnik može pomicati zmiju pritiskom tipki strelica na tastaturi.
+Kada igra završi, korisnik izgubi, otvara se zaslon na kojemu se prikaze trenutni rezultat korisnika i top 5 rezultata korisnika. 
+
+Korisnik može nastaviti igru pritiskom na tipku Enter ili izaći iz nje pritiskom na tipku Q.
